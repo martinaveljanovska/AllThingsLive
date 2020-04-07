@@ -1,6 +1,6 @@
 #header {
 	position: relative;
-	background-image: url("../img/header.jpg");
+	background-image: url("../img/header-sm.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 100%;
@@ -10,10 +10,9 @@
 	display: flex;
 	align-items: flex-end;
 
-	&.vod {
-		background-image: url("../img/header2.png");
+	@media screen and (min-width: 790px) {
+		background-image: url('../img/header.jpg');
 	}
-
 	.header-content {
 		height: 100%;
 		width: 100%;
