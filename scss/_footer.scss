@@ -11,18 +11,14 @@
 		color: #fff;
 	}
 
-	.divider {
-		background-color: #fff;
-	}
-
 	#ip {
 		font-family: var(--font1);
 		text-transform: uppercase;
 		text-decoration: none;
 		opacity: 0.4;
 		font-weight: 600;
-		margin: 0;
-		// font-size: .9em;
+		margin: 10px 0;
+    display: inline-block;
 
 		transition: 0.2s all ease-out;
 

@@ -19,22 +19,21 @@ body {
 	-webkit-font-smoothing: antialiased;
 } //body
 
-.social-top {
+.social-wrap {
 	position: relative;
-	background-color: var(--secondary);
-	padding: 10px 100px;
+	padding: 15px 50px;
 	z-index: 3;
 
 	i {
-		font-size: 20px;
+		font-size: 18px;
 		margin: 0 10px;
-		opacity: 0.7;
+		opacity: 1;
 		cursor: pointer;
 
 		transition: 0.2s all ease-out;
 
 		&:hover {
-			opacity: 1;
+			opacity: .7;
 		}
 	}
 
@@ -43,6 +42,10 @@ body {
 		padding: 7px 0;
 		display: block;
 	}
+}
+
+.social-top{
+	border-bottom: 1px solid #cecece;
 }
 
 @media (max-width: 789px) {
@@ -59,7 +62,7 @@ body {
 	z-index: 100;
 	display: flex;
 	align-items: center;
-	padding: 10px 100px;
+	padding: 10px 50px;
 
 	.nav-container {
 		width: 100%;
@@ -102,7 +105,7 @@ body {
 			.login-button {
 				margin-left: auto;
 				text-transform: uppercase;
-				color: var(--primary);
+				color: #000;
 				font-weight: 600;
 				font-size: 1em;
 				font-family: var(--font1);
@@ -124,7 +127,7 @@ body {
 			color: #111;
 
 			.logo {
-				width: 150px;
+				width: 200px;
 			}
 		}
 	} // nav-container
