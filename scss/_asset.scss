@@ -18,6 +18,7 @@
 		}
 
 		.inplayer-itemdetails {
+			width: 85%;
 			text-align: center;
 			margin: 0 auto;
 			display: block;
@@ -32,9 +33,11 @@
 			}
 
 			p {
-				text-align: center;
+				font-family: var(--font2);
+				text-align: left;
 				font-weight: 400;
-				display: none;
+				// display: none;
+				font-size: 16px;
 			}
 			h3 {
 				font-weight: 600;
