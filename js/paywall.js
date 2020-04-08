@@ -16,6 +16,14 @@ $(function () {
 
 	paywall.on('inject', () => {
 		$('.inplayer-paywall').addClass('video-wrapper');
+		$('#buy-95698').css('display', 'none');
 	});
 
+	$('#buy-95698').on('click', () => {
+		paywall.showPaywall({
+			asset: {
+				assetId: 95698
+			}
+		});
+	})
 });
