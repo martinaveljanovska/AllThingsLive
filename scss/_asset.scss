@@ -1,5 +1,5 @@
 #asset {
-	padding: 20px;
+	text-align: center;
 }
 
 .inplayer-paywall {
@@ -45,6 +45,7 @@
 		} // itemdetails
 
 		.inplayer-buybutton {
+			display: none;
 			width: 100%;
 			text-align: center;
 			padding: 10px 0;
